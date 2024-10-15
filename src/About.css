@@ -1,0 +1,62 @@
+.about-swachhata {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+  
+  .about-text {
+    flex: 1;
+    background-color: #9C4A3A;
+    color: white;
+    padding: 20px;
+  }
+  
+  .about-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .about-image {
+    position: relative;
+    flex: 1;
+  }
+  
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(35%); /* This will darken the image */
+  }
+  
+  .image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the darkness of the overlay */
+    color: white;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  
+  .ranks-btn {
+    background-color: #9C4A3A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .ranks-btn:hover {
+    background-color: #7b3a2e;
+  }
+  

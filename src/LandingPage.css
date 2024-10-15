@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 81.8vh; /* Changed from height to min-height for better flexibility */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  /* padding: 20px; Add padding for better spacing on smaller screens */
+}
+
+.header {
+  width: 100%; /* Ensures the header takes full width of the container */
+  max-width: 1200px; /* Limits the maximum width for larger screens */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.title {
+  font-size: 2em; /* Adjust font size for better scaling */
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically on smaller screens */
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 40px;
+  }
+
+  .title {
+    font-size: 2.5em;
+  }
+
+  .buttons {
+    flex-direction: row; /* Align buttons horizontally on larger screens */
+    gap: 20px;
+  }
+}

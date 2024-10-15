@@ -1,0 +1,14 @@
+.custom-footer {
+    background-color: #0a4275;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .custom-footer-bottom {
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    margin: 0 auto;
+    /* padding: 10px; */
+  }
+  
